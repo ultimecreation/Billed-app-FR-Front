@@ -27,7 +27,7 @@ const rows = (data) => {
 export default ({ data: bills, loading, error }) => {
   
   const orderByDateAsc = (a, b) => ((new Date(a.date) > new Date(b.date)) ? 1 : -1)
-  bills = bills && bills.sort(orderByDateAsc)
+  bills = bills && Array.from(bills).sort(orderByDateAsc)
   
   const modal = () => (`
     <div class="modal fade" id="modaleFile" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
