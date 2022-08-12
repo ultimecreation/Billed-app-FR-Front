@@ -46,7 +46,7 @@ export default () => {
         new Bills({ document, onNavigate, store, localStorage })
 
       }).catch(error => {
-
+       // console.log(error)
         rootDiv.innerHTML = ROUTES({ pathname, error })
 
       })
@@ -71,7 +71,7 @@ export default () => {
           new Dashboard({document, onNavigate, store, bills, localStorage})
 
         }).catch(error => {
-
+          
         rootDiv.innerHTML = ROUTES({ pathname, error })
 
       })
@@ -141,7 +141,7 @@ export default () => {
         new Dashboard({ document, onNavigate, store, bills, localStorage })
 
       }).catch(error => {
-
+       
         rootDiv.innerHTML = ROUTES({ pathname: window.location.hash, error })
         
       })
