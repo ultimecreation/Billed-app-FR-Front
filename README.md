@@ -1,3 +1,17 @@
+# Billed Saas RH
+
+- Pour ce projet:
+   - je devais débugger une application et implémenter des tests unitaires et d'intégrations
+   - Créer un plan de tests E2E
+ 
+### Couverture de tests
+![rapport_couverture_082022](https://github.com/user-attachments/assets/f4c23d9a-e262-4bed-a578-b3fb63173b22)
+
+### Plan de tests E2E
+[plan_test_082022.pdf](https://github.com/user-attachments/files/19982589/plan_test_082022.pdf)
+
+
+     
 
 ## L'architecture du projet :
 Ce projet, dit frontend, est connecté à un service API backend que vous devez aussi lancer en local.
