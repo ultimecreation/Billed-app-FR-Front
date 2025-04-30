@@ -8,10 +8,10 @@
 ![rapport_couverture_082022](https://github.com/user-attachments/assets/f4c23d9a-e262-4bed-a578-b3fb63173b22)
 
 ### Plan de tests E2E
-[plan_test_082022.pdf](https://github.com/user-attachments/files/19982589/plan_test_082022.pdf)
+![plan de tests 1](https://github.com/user-attachments/assets/d28c1ed1-0811-4911-841a-aebf2e698494)
+![plan de tests 2](https://github.com/user-attachments/assets/50a41e96-c029-4523-a2bf-e95e10d30ffb)
+![plan de tests 3](https://github.com/user-attachments/assets/5a7ea5a1-e3d2-4061-8ecc-3efbf86ee9d9)
 
-
-     
 
 ## L'architecture du projet :
 Ce projet, dit frontend, est connecté à un service API backend que vous devez aussi lancer en local.
